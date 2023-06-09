@@ -32,10 +32,8 @@ int main()
 {
 	const char* plaintext ="This is a string";
 	char ciphertext[17];
-
 	encryptstring(plaintext, ciphertext);
-
-
+	
 	printf("Plaintext: %s\n", plaintext);
 	printf("Ciphertext: ");
 	for (int i = 0; i < 16; i++)
